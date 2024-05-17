@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca de CEP</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Estilo personalizado -->
+        <style>
+            body {
+                background-color: #000000; /* Cor de fundo preta */
+                color: white; /* Cor do texto branco para contraste */
+            }
+        </style>
+    
+</head>
+<body>
+    <div class="container mt-5" style="background-color: #36a32a;">
+        <h1>Busca de CEP</h1>
+        <div class="form-group">
+            <label for="cepInput">CEP:</label>
+            <input type="text" class="form-control" id="cepInput" placeholder="Digite o CEP">
+        </div>
+        <button type="button" STYLE="background-color: rgb(81, 255, 0);" onclick="buscarCEP()">Buscar</button>
+        <div class="mt-3">
+            <h4>Resultado:</h4>
+            <p id="resultado"></p>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
